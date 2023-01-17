@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+     <html>
+     <head>
+         <meta charset="utf-8">
+         <title>倒计时</title>
+         <meta name="description" content="datao的倒计时">
+         <meta name="keywords" content="datao的倒计时">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="css/main.css">
+         <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+         <script>LA.init({id: "JqE6KUoi6Ai1X9cp",ck: "JqE6KUoi6Ai1X9cp"})
+         </script>
+         <style>
+             .mom {
+                 display: none;
+             }
+
+             @media only screen and (max-width:450px) {
+                 .mom {
+                     display: block;
+                 }
+
+                 .cn {
+                     color: #f00;
+                     font-weight: bold;
+                 }
+         </style>
+     <link href="https://lib.baomitu.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+     </head>
+
+     <body class="is-loading">
+
+         <!-- Wrapper -->
+         <div id="wrapper">
+             <!-- Main -->
+             <section id="main">
+                 <header>
+                     <a href="index.html">
+                         <h1>我们的征途</h1>
+                     </a>
+                     <p>迷失的人迷失了，相逢的人会再相逢</p>
+                     <form name="form1">
+                         <a href="index.html">
+                             <div align="center" style="background-color:#a39ae5;">
+
+                                面朝大海，春暖花开
+                             </div>
+                         </a>
+                         <div class="cn" title="干净的圈子 规律的生活 中意的人">
+                             干净的圈子 规律的生活 中意的人
+                         </div>
+                     </form>
+
+                 </header>
+<style>
+.gn_box{ 
+border: none; 
+border-radius: 15px; 
+} 
+.gn_box { 
+padding: 10px 14px; 
+margin: 10px; 
+margin-bottom: 20px; 
+text-align: center; 
+background-color: #fff; 
+} 
+#t_d{ 
+color: #982585; 
+font-size: 18px; 
+} 
+#t_h{ 
+color: #8f79c1; 
+font-size: 18px; 
+} 
+#t_m{ 
+color: #65b4b5; 
+font-size: 18px; 
+} 
+#t_s{ 
+color: #83caa3; 
+font-size: 18px; 
+} 
+</style> 
+<div class="gn_box"> 
+<h1><font color=#E80017>2</font>
+<font color=#D1002E>0</font>
+<font color=#BA0045>2</font>
+<font color=#A3005C>2</font>
+<font color=#8C0073>开</font>
+<font color=#75008A>学</font>
+<!-- <font color=#5E00A1></font>  -->
+<font color=#4700B8>计</font>
+<font color=#3000CF>时</font></h1>
+<center>
+
+ <div id="CountMsg" class="HotDate">
+   <span id="t_d"> 天</span>
+   <span id="t_h"> 时</span><span id="t_m"> 分</span>
+   <span id="t_s"> 秒</span>
+ </div>
+</center> 
+<script type="text/javascript">
+function getRTime() {
+
+       var EndTime = new Date('2022/8/30 00:00:00');       
+       var NowTime = new Date();       
+       var t = EndTime.getTime() - NowTime.getTime();              
+       var d = Math.floor(t / 1000 / 60 / 60 / 24);              
+       var h = Math.floor(t / 1000 / 60 / 60 % 24);              
+       var m = Math.floor(t / 1000 / 60 % 60);              
+       var s = Math.floor(t / 1000 % 60);      
+       var day = document.getElementById("t_d");     
+       if (day != null) {         
+            day.innerHTML = d + " 天";        
+       }     
+           var hour = document.getElementById("t_h");     
+       if (hour != null) {         
+           hour.innerHTML = h + " 时";       
+       }     
+           var min = document.getElementById("t_m");     
+       if (min != null) {         
+          min.innerHTML = m + " 分";        
+       }     
+           var sec = document.getElementById("t_s");     
+       if (sec != null) {         
+           sec.innerHTML = s + " 秒";     
+       } 
+}      
+setInterval(getRTime, 1000);      
+</script> 
+</div>
+                 <footer>
+                 </footer>
+                 
+             </section>
+<br>             
+             <!-- Footer -->
+         </div>
+         
+         <script>
+             if ('addEventListener' in window) {
+                 window.addEventListener('load', function() {
+                     document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+                 });
+                 document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+             }
+        </script>
+ <script>
+ </script>
+     </body>
+</html>
